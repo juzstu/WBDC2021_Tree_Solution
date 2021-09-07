@@ -1045,7 +1045,6 @@ if __name__ == "__main__":
     merge_file(feat_path + '/base_tm_train')
     merge_file(feat_path + '/manual_tag_list_user_ctr')
     merge_file(feat_path + '/machine_keyword_list_user_ctr')
-    merge_file(feat_path + '/machine_keyword_list_user_ctr')
     merge_file(feat_path + '/tm_ratio_train')
     load_train_file(feat_path)
     load_test_file(feat_path, we_path + '/test_a.csv')
